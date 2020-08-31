@@ -1,0 +1,26 @@
+body {
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+input {
+    font-size: 1.25em;
+    padding: 10px;
+    width: 60%;
+    margin: 30px auto;
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(227.5px, 227.5px));  
+    grid-auto-columns: max-content;
+    gap: 30px;
+}
